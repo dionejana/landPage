@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">INICIO</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Projetos</a></li>
+          <li><a href="#grid-one">cultura</a></li>
+          <li><a href="#gallery">Fotos</a></li>
+          <li><a href="#grid-two">Produtos</a></li>
+          <li><a href="#pricing">Descontos</a></li>
+          <li><a href="#contact">contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Venha conhecer a nossa loja</h2>
+        <p>Pra nós adultos esta pergunta pode ter uma resposta não tão óbvia, afinal, brincar é algo que muitos não se permitem quando alcançam uma certa idade. Mas quando estamos falando das crianças. a resposta certa: Não tem coisa melhor que brincar.
+          Brincar permite à criança conhecer o mundo que a rodeia. Permite que ela explore o mundo real e imaginário, manifeste suas emoções, aprenda e se desenvolva. Não dá pra pensar numa infância sem o “brincar”. 
+          
+          </p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/m1.jpg" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Projeto Recicla</h2>
+      <p>E o brinquedo reciclável tende a despertar nas crianças a criatividade, mostrando as possibilidades de transformar objetos em algo novo e divertido. E também a conscientização de meio ambiente e a importância da sustentabilidade.
+
+ 
+
+        Selecionamos aqui ideias muito bacanas de brinquedos divertidos, sustentáveis e originais para você confeccionar junto com a criança.</p>
+      
+    </div>
+  </section>
+
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Cultura</h2>
+      <p class="grid-description">tenha a cultura de reciclar.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Carrinho de pregador reciclado</h3>
+          <p>
+            Sabe aqueles botões que se soltam das roupas e que você nunca os costura de volta? Junte-os a um pregador de roupas e transforme-os em carrinhos de corrida. Para prender os botões e fazer as rodas, use arame e canudinhos de bebidas.
+            
+             </p>
+        </article>
+        <article>
+          <h3>Bonecos de rolo de papel higiênico</h3>
+          <p>
+            Para fazer um brinquedo de Homem Aranha, encape o rolo de papel higiênico com papel vermelho. Depois, crie a máscara do super herói, também com papel vermelho, e corte os olhos. Complete a roupa colando alguns recortes de papel azul. Por último, desenhe as teias com a canetinha preta.</p>
+        </article>
+        <article>
+          <h3>Joaninha de tampinha de garrafa</h3>
+          <p>
+ 
+
+            Lindas joaninhas podem ser feitas de um modo muito fácil. Para isso, pegue tampinhas de bebidas e faça as pintinhas das joaninhas com tinta acrílica preta. Para finalizar, cole os olhinhos dela e pronto! Faça quantos brinquedos reciclados desse você desejar, seja para as crianças brincarem ou até mesmo para enfeitar seu jardim.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Fotos</h2>
+      <p class="grid-description">tenha boas ideias.</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="/assets/img/carrinhos-feitos-com-pregadores-de-roupa.jpg" alt="carrinho feito de pregador de roupas" />
+        </div>
+        <div class="gallery-img">
+          <img src="/assets/img/homen ajpeg" alt="homens aranha feito de rolo papel pintado de canetinha" />
+        </div>
+        <div class="gallery-img">
+          <img src="/assets/img/joanonha.jpeg" alt="joaninha feita de tampinha garafa pintada de tinta" />
+        </div>
+        
+       
+        
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="grid-two" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Produtos</h2>
+      <p class="grid-description">conheça nossos produtos.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Brinquedos</h3>
+          <div class="gallery-img">
+            <img src="/assets/img/lego.jpg" alt="brinquedos legos varias cores" />
+          </div>
+        </article>
+        <article>
+          <h3>Roupas</h3>
+          <div class="gallery-img">
+            <img src="/assets/img/foto1.jpg" alt="criancças brincando" />
+          </div>
+        </article>
+        <article>
+          <h3>Decorativos</h3>
+          <div class="gallery-img">
+            <img src="/assets/img/decorativo.jpg" alt="dados de tecido e ursinho" />
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Descontos</h2>
+      <p>Descontos validos somente para pagamento avista ou no cartão da loja em ate 10 vezes</p>
+      <p>ofertas validas ate acabar o estoque</p>
+
+      <div class="responsive-table">
+        <table>
+          <caption>tabela de descontos</caption>
+
+          <thead>
+            <tr>
+              <th>Produto</th>
+              <th>acima do valor de</th>
+              <th>Desconto de</th>
+              
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Brinquedos</td>
+              <td>150,00</td>
+              <td>5%</td>
+              
+            </tr>
+            <tr>
+              <td>Roupas</td>
+              <td>200,00</td>
+              <td>8%</td>
+              
+            </tr>
+            <tr>
+              <td>Decorativos</td>
+              <td>150</td>
+              <td>3%</td>
+              
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2></h2>
+        <p>.</p>
+      </div>
+      
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>contato</legend>
+
+          <div class="form-group">
+            <label for="first-name">Nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="seu nome">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Sobre Nome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="sobre nome">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="seu e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Comentario</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="comentarios aqui!"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">ENVIAR</button>
+          </div>
+        </fieldset>
+      </div>  
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p> <img src="/assets/img/zap.png" style="width: 80px;" alt="" srcset=""><a rel="nofollow" target="_blank" href="https://api.whatsapp.com/send?phone=5515998332879&text=criamos%20seu%20web-site!!%20%20%20"><span class="heart">JN--ADS  (15)998332879 </span></a></p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
