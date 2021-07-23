@@ -26,7 +26,7 @@ h1 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   text-transform: uppercase;
 }
 
@@ -58,7 +58,7 @@ a {
 }
 
 p {
-  margin-bottom: 3rem;
+  margin-bottom: 1.8rem;
 }
 
 .responsive-table {
