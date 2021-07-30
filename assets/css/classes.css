@@ -29,6 +29,6 @@ body .full-width {
   width: 100%;
   flex: 1 1 100%;
 }
-footer img .zapi {
- width:40px; 
+.zapi {
+height:70px;
 }
